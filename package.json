@@ -1,0 +1,19 @@
+{
+  "name": "disc-edge",
+  "version": "1.0.0",
+  "description": "Clean architecture frame-work used for front-end applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rikato/disc-edge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rikato/disc-edge/issues"
+  },
+  "homepage": "https://github.com/rikato/disc-edge#readme"
+}
