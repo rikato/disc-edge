@@ -4,7 +4,9 @@
   "description": "Clean architecture frame-work used for front-end applications.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js",
+    "dev": "ts-node src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/rikato/disc-edge/issues"
   },
-  "homepage": "https://github.com/rikato/disc-edge#readme"
+  "homepage": "https://github.com/rikato/disc-edge#readme",
+  "dependencies": {
+    "@types/node": "^16.9.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
 }
