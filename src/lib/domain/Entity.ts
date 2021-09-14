@@ -8,6 +8,10 @@ export class Entity<T> {
   public get uid(): string {
     return this._uid;
   }
+
+  public isEqual(other: Entity<T>) {
+    return this._uid === other.uid;
+  }
 }
 
 export class ValueObject<T> {
@@ -19,6 +23,10 @@ export class ValueObject<T> {
 
   public get value(): T {
     return this._value;
+  }
+
+  public isEqual(other: ValueObject<T>) {
+    return this._value === other.value;
   }
 }
 
