@@ -33,6 +33,8 @@ bower_components
 .DS_Store
 Thumbs.db
 
+package-lock.json
+
 # Ignore built ts files
 dist/**/*
 
