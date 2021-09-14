@@ -1,4 +1,4 @@
-export abstract class Entity<T> {
+export class Entity<T> {
   private _uid: string;
 
   protected constructor(uid: string) {
