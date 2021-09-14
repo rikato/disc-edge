@@ -10,7 +10,6 @@ lib-cov
 
 pids
 logs
-results
 tmp
 
 # Build
@@ -33,6 +32,8 @@ bower_components
 # OS metadata
 .DS_Store
 Thumbs.db
+
+package-lock.json
 
 # Ignore built ts files
 dist/**/*
